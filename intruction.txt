@@ -1,0 +1,46 @@
+ 
+    1. element selector
+        element{
+            property: value;
+        }
+
+        ex. body, div....
+
+    2. ID Selector (#)
+        element#value{
+            property:value;
+        }
+
+        example
+        div#a1{
+            color:red;
+        }
+
+    3. Class Selector (.) (to reduce code source)
+        advantage - class is commonly used.
+        use to common elemnet target
+
+        element.value{
+            property:value;
+        }
+
+        ex. div.a1{
+            background-color:red;
+        }
+
+    4. Sudo Class Selector  (:)
+        element:hover{
+            
+        }
+
+        div#a1:hover{
+            color : pink;
+        }
+
+
+***********************************************************************
+how many way we can target the css
+
+1. Inside <head> tag
+2. Inline CSS
+3. External CSS
